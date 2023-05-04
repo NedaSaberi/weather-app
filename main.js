@@ -16,7 +16,7 @@ const getIp = async () => {
 };
 
 const getWeather = async (lat, lon) => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=166657246414c1ca9c7977c04b0881a9`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=[YOUR_APPID]`;
   const request = await fetch(url);
   const data = request.json();
   return data;
