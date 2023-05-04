@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(65, 135, 201);/* For browsers that do not support gradients */
+    background: linear-gradient(rgb(65, 135, 201), rgb(16, 40, 63) );
+    /* // تفییر هاله رنگ از پایین به بالا */
+    color: #fff;
+}
+h1{
+    text-align: center;
+    margin:50px 0 140px;
+}
+.title{
+    margin: 40px 0 140px;
+   text-align: center;
+   background-color: transparent;
+}
+.title-text{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    font-size: 35px;
+    font-weight:bolder;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+.icon img{
+    width: 250px;
+    margin-top: -50px;
+}
+.temperature .degree-section{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.temperature .degree-section .degree{
+    font-size: 30px;
+}
+.temperature .temperature-description{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
